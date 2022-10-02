@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+body{
+    background-image: url(仏教絵画.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0, 4);
+    background-blend-mode: lighten;
+}
+h1{
+    text-align: center;
+}
+.abc{
+    text-align: center;
+}
+.abc .def  {
+    font-size: 200%;
+    text-align: left;
+    display: inline-block;
+}
+
+.aaa {
+    font-size: 200%;
+}
+
+.ccc{
+    font-size: 250%;
+}
+
+/*pagetop関連記載*/
+.for-scroll{
+    height: 1500px;
+}
+
+.scroll-top{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    z-index: 100;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color:#fff;
+    line-height: 50px;
+    text-align: center;
+}
+
+.scroll-top:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
