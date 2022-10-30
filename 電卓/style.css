@@ -1,0 +1,68 @@
+/*tableの装飾*/
+table{
+    border:solid 1px;
+    /*電卓サイズ*/
+        width: 300px;
+        height: 400;
+    /*電卓の角に丸みを持たせる*/
+        border-radius: 30px;
+    /*電卓を中央配置*/
+        text-align: center;
+    /*余白設定*/
+        padding: 5px;
+        margin: 10px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+}
+
+input[type="button"]{
+    /*ボタンサイズ*/
+        width: 55px;
+        height: 55px;
+
+    /*ボタン文字サイズ*/
+        font-size: xx-large;
+
+    /*ボタン背景色*/
+        background-color: white;
+
+    /*ボタン装飾*/
+        border-radius: 15px;
+        border:solid 1px;
+
+     /*ボタン幅*/
+        margin-bottom: 15px;
+       
+}
+
+.display{
+     width: 250px;
+     height: 40px;
+     text-align: right;
+     border-radius: 15px; 
+     margin-bottom: 20px;
+     background-color: rgb(231, 228, 228);
+}
+
+ /* カーソルを上に乗せた時に色を濃くする */
+ input:hover {
+     background: #d1ccccb9;
+ }
+
+ /* ディスプレイ部分は無効化 */
+ .display:hover {
+     background:  rgb(231, 228, 228); 
+  }
+
+.operator:hover{
+    background-color: #d1ccccb9 ;
+  }
+
+ /* クリック時に色を濃くする */
+ input:active {
+    background:  #5a5a5a;
+  }
+
+.operator:active {
+    background: #5a5a5a;
+  }
